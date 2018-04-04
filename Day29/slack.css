@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #ff6666;
+}
+
+#row_class {
+	font-style: bold;
+}
+
+#outer_div {
+	margin-top: 12%;
+	margin-bottom: 12%;
+	width: 75%;
+	height: 75%;
+	border: 1px solid silver;
+}
+
+#title_bar {
+	background-color: #9900cc;
+	color: #ffffff;
+}
+
+#msg_head {
+	font-style: bold;
+}
+
+button[disabled] { 
+ color:grey;
+} 
+
+#left_div {
+	background-color: #99ff99;
+}
+
+#right_div {
+	background-color: #ffffcc;
+}
+
+.myrow {
+  display: flex; /* equal height of the children */
+}
+
+.mycol {
+  flex: 1; /* additionally, equal width */
+}
+
+textarea {
+	width: 100%;
+}
+
+#user_name {
+	width: 100%;
+}

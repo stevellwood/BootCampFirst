@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("images/nums3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#outer {
+  padding: 20%;
+  text-align: center;
+}
+
+.above_eight {
+  color: red;
+}
+
+.divisible_by_two {
+  font-style: italic;
+}
+
+.has_seven {
+  color: green;
+}
+
+#inc_amt {
+  resize: none;
+}
+
+#dec_amt {
+  text-align: right;
+  resize: none;
+}
+
+#counter_text {
+  text-align: center;
+  resize: none;
+}
+
+#reset {
+  width: 100%;
+}
+
+#zero_message {
+  text-align: center;
+}

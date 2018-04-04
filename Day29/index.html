@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Slack Message Generator</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="slack.css" />
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="getSlackToken.js"></script>
+<script src="slack.js"></script>
+</head>
+<body>
+	<div id="outer_div" class="container">
+		<div class="row">
+			<div id="title_bar" class="col-sm-12 text-center"><h1>Slack Bot Chat</h1></div>
+		</div>
+		<div class="row myrow">
+			<div id="left_div" class="col-sm-6 my_col">
+				<h2 id="msg_head">Available Slack Channels:</h2>
+				<h3>Public Channels:</h3>
+				<div id="public_channel_list">
+					
+				</div>
+				<span id="private_channel_list"><h3>Private Channels:</h3></span>
+				<div id="private_channel_list">
+				</div>
+			</div>
+			<div id="right_div" class="col-sm-6 my_col">
+			    <div class="row">
+					<div class="col-sm-6"><h2 id="msg_head">Post Message as</h2></div>
+					<div class="col-sm-6"><h2><input id="user_name" type="text" value="Slack API Tester" /></h2></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12"><textarea id="msg" rows="8"></textarea></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12"><button id="post_msg">POST</button></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12"><a id="toggle_link" href="#"><h3>Show the private channels</h3></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

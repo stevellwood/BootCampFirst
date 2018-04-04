@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Counter</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="counter.css" />
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+  <script src="counter.js"></script>
+</head>
+<body>
+<div id="outer" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3">&nbsp;</div>
+    <div class="col-sm-2 text-right">
+      <input id="dec_amt" type="text" value="1" size="5" /><input id="decrease" type="button" value="-" />
+    </div>
+    <div class="col-sm-2 text-center"><input id="counter_text" type="text" value="0" size="8" /></div>
+    <div class="col-sm-2">
+      <input id="increase" type="button" value="+" /><input id="inc_amt" type="text" value="1" size="5" />
+    </div>
+    <div class="col-sm-3">&nbsp;</div>
+  </div>
+  <br/>
+  <div class="row">
+    <div class="col-sm-5">&nbsp;</div>
+    <div class="col-sm-2 text-center"><input id="reset" type="button" value="Reset" /></div>
+    <div class="col-sm-5">&nbsp;</div> 
+  </div>
+  <br/>
+  <div class="row">
+    <div class="col-sm-2">&nbsp;</div>
+    <div class="col-sm-8 text-center"><input id="toggle_pro" type="checkbox" />Check to turn on the pro challenge</div>
+    <div class="col-sm-2">&nbsp;</div> 
+  </div>
+  <p id="zero_message">The counter is 0!</p>
+</div>
+</body>
+</html>
